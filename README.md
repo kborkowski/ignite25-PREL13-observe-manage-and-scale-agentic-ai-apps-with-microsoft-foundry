@@ -121,4 +121,13 @@ Any use of third-party trademarks or logos are subject to those third-party's po
     1. Set a good description of this repo.
     1. Add the technologies that you're using in this session.
 
+Colors in banner:
+Deep Purple (#30216F) - The dark purple background on the left side
+Vibrant Magenta/Pink (#E94BBF) - The bright pink areas in the middle
+Electric Blue (#2B76E5) - The blue tones on the right edge
+Medium Purple (#7C4ACD) - The transitional purple areas
+Light Pink (#F2A1E6) - The lighter pink areas in the mesh/grid pattern
+
+ Microsoft Azure's typical blue (#0078D4) and purple (#5C2D91) colors, 
+ with additional purple shade (#722ED1) for gradient effect.
 --->
