@@ -14,7 +14,7 @@ This lab focuses on adding telemetry to agent-based workflows without provisioni
 - `01-trace-agent-session.ipynb` – walk through manual span creation for agent provisioning and invocation, including nested tool spans.
 - `02-collect-span-snapshots.ipynb` – demonstrate exporting the resulting spans to in-memory and OTLP-compatible payloads that you can ship to observability backends.
 - `1-OpenAIAgents/weekend_planner.ipynb` – asynchronous OpenAI Agents example with automatic GenAI span capture via `opentelemetry-instrumentation-openai-agents-v2`.
-- `2-LangChain/weekend_planner.ipynb` – LangChain v1 agent instrumented with `langchain-azure-ai` callbacks to emit `invoke_agent` and tool spans.
+- `2-LangChain/weekend_planner.ipynb` – LangChain v1 agent instrumented with `langchain-azure-ai[opentelemetry]` callbacks to emit `invoke_agent` and tool spans.
 - `3-LangGraph/music_router.ipynb` – LangGraph workflow that streams tool calls while the Azure AI tracer records compliant telemetry.
 
 Use the notebooks as primers on the raw span payloads, then adapt the Python samples to instrument full applications.
@@ -25,7 +25,7 @@ Install the following packages in addition to the repo-wide lab requirements:
 
 ```bash
 pip install opentelemetry-instrumentation-openai-agents-v2
-pip install langchain-azure-ai
+pip install \"langchain-azure-ai[opentelemetry]\"
 ```
 
 Both packages automatically apply the GenAI semantic conventions and expose toggles for capturing system instructions, tool definitions, and message content.
