@@ -15,6 +15,14 @@
 
 # ForBeginners folder
 scripts/ForBeginners/
+scripts/ForBeginners.old/
+
+# Temporary and backup folders
+tmp/
+*.old/
+*.orig/
+**/.old/
+**/.orig/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -428,3 +436,6 @@ site/*
 # .github
 .venv
 .github/chatmodes/
+
+# Ignore tmp/ workspaces
+tmp/

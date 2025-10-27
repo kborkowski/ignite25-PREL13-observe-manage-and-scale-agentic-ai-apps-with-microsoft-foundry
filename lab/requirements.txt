@@ -14,8 +14,19 @@ azure-identity                  # For Azure authentication
 azure-search-documents==11.5.3  # For Azure AI Search
 azure-ai-evaluation             # For model evaluation
 azure-mgmt-cognitiveservices    # For model deployment
+agent-framework                 # For building AI agents    
 
 ## ............... Azure OpenAI Dependencies
 openai 
 requests 
 tiktoken 
+
+## ............... Tracing Lab Dependencies
+opentelemetry-instrumentation-openai-agents-v2
+langchain-azure-ai
+#openai 
+openai-agents 
+rich 
+azure-monitor-opentelemetry-exporter
+#python-dotenv
+azure-monitor-opentelemetry # --- For Langchain
