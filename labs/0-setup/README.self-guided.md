@@ -1,12 +1,10 @@
 # Setup For Self-Guided Learners
 
-    🚨🚨🚨 TRACING ENV NEEDS MANUAL UPDATE - TODO: FIX IT 🚨🚨
-
-
 Use this guide if you are working on these labs on your own at home!
 
+---
 
-## 1. Pre-Requisites
+## 📋 1. Pre-Requisites
 
 You will need:
 
@@ -18,7 +16,7 @@ You will need:
 
 <br/>
 
-## 2. Setup Dev Environment
+## 🚀 2. Setup Dev Environment
 
 First, let's get you set up with a development environment for the lab. The repository is setup with a `devcontainer.json` that provides a pre-build development environment with all tools and dependencies installed. Let's activate that in three steps!
 
@@ -47,7 +45,7 @@ _Your development environment is ready - and connected to Azure!_
 
 <br/>
 
-## 3. Provision Your AI Agents Resources
+## ⚙️ 3. Provision Your AI Agents Resources
 
 1. We'll jumpstart our development using the [Get Started With AI Agents](https://github.com/Azure-Samples/get-started-with-ai-agents) template
 1. This provides a solution architecutre with sample code & infrastructure files
@@ -108,7 +106,7 @@ _Let's get this done_
 
 <br/>
 
-## 4. Set up `.env` variables.
+## ⚙️ 4. Set up `.env` variables.
 
 1. Make sure you are authenticated with Azure CLI.  We will use this to retrieve and create a `.env` file based on the `scripts/.env.sample` format
 
@@ -124,7 +122,7 @@ _Let's get this done_
 
 <br/>
 
-## 5. Populate Search Data
+## 📊 5. Populate Search Data
 
 1. We have Zava data in `scripts/customization`. Let's create a product index in Azure AI Search. Switch to the `scripts/` folder and run the command:
 
@@ -138,7 +136,7 @@ _Let's get this done_
 
 <br/>
 
-## 6. Add Model Choices
+## 🎓 6. Add Model Choices
 
 The default AI Agents template will deploy one chat model. The AI Search index creation will require a second text-embedding model.
 
@@ -190,7 +188,10 @@ ADDITIONAL_MODEL_DEPLOYMENTS=[{"name":"model-router","model":{"format":"OpenAI",
 
 <br/>
 
-## 7. Validate your `.env` variables
+```
+
+
+## ✅ 7. Validate your `.env` variables
 
 1. It's easy - there's a notebook for that!
 1. Open `labs/0-setup/00-validate-setup.ipynb` in your Visual Studio Code editor.
@@ -209,7 +210,7 @@ ADDITIONAL_MODEL_DEPLOYMENTS=[{"name":"model-router","model":{"format":"OpenAI",
 ```
 
 
-## 8. (Optional) Refresh Env From Existing Infra
+## 🔄 8. (Optional) Refresh Env From Existing Infra
 
 What if you had provisioned infrastructure earlier - but had deleted your Codespaces? Can you _restore_ environment variables from an existing infrastructure?
 
@@ -217,7 +218,7 @@ Yes. Note that the `scripts/1-update-env-selfguided.sh` script only needs your s
 
 <br/>
 
-## 5. Complete Your Labs
+## 📚 9. Complete Your Labs
 
 _Your infrastructure is now ready! You can now launch the instruction guide and start working through the labs!_.
 
@@ -235,7 +236,7 @@ _Your infrastructure is now ready! You can now launch the instruction guide and 
 
 <br/>
 
-## 6. Teardown & Cleanup
+## 🧹 10. Teardown & Cleanup
 
 When you are all done with labs, you want to tear down the infrastructure _and_ delete the cloned template sources from your repo. Make sure you are in the `scripts/` folder then run this command:
 
@@ -257,3 +258,29 @@ Tear down Azure infrastructure? (yes/no):
 ```
 
 Respond with "yes" - and wait till complete. This will take 15-20 minutes to unprovision the resource group and purge resources. _You can now use the `./1-setup.sh` script if you want to restart install from scratch_.
+
+---
+
+## 🆘 Troubleshooting
+
+### Common issues and solutions
+
+| Issue | Solution |
+|-------|----------|
+| **Script fails with "Not logged in"** | Run `az login` again and complete authentication |
+| **Resource group not found** | Ensure you're using the correct Azure subscription |
+| **MkDocs won't start** | Try `pip install -r requirements-dev.txt` first |
+| **Notebook kernel not found** | Select the Python kernel from the top-right kernel picker |
+| **Bicep deployment fails** | Navigate to `ForBeginners/.azd-setup` and run `azd up` directly |
+| **Model deployment conflicts** | Wait a few minutes and retry with `azd up` |
+
+### Additional resources
+
+- �🐛 [Report issues on GitHub](https://github.com/Azure-Samples/ignite25-PREL13/issues)
+- 💬 Join our community on Discord to interact with other developers:
+
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3cmBfTFkH7)
+
+---
+
+**🎉 Congratulations!** Your lab environment is ready. Start exploring the power of Azure AI Foundry!
