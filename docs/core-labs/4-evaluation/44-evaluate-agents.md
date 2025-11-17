@@ -20,8 +20,9 @@ Evaluate agents on metrics specific to agentic AI systems, such as correct inten
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. Close the notebook once done
 
 **What you'll learn in this lab:**
 
@@ -57,5 +58,5 @@ Evaluate agents on metrics specific to agentic AI systems, such as correct inten
 ---
 
 !!! note "Next Step"
-    Finished agent evaluation? Close the notebook and proceed to tracing for deeper execution insights.
+    Finished agent evaluation? **Close the notebook** and proceed to [tracing](../5-tracing/51-trace-cora-retail-agent.md) for deeper execution insights.
 

@@ -57,4 +57,4 @@ Build custom evaluators that assess qualities beyond standard metrics, such as b
 ---
 
 !!! note "Next Step"
-    Done defining or testing the custom grader? Close the notebook and proceed forward in the customization sequence.
+    Done defining or testing the custom grader? **Leave the notebook running** and proceed forward with [basic finetuning.](./31-basic-finetuning.md)

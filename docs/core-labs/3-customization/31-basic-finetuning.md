@@ -53,3 +53,6 @@ Learn the fundamentals of model fine-tuning by training a model on Zava-specific
 - Fine-tuning embeds specific behaviors, tone, and domain expertise directly into model weights for consistent outputs
 - Training data quality matters more than quantity - aim for diverse, high-quality examples demonstrating desired behavior
 - Token analysis and validation prevent costly training errors and optimize for both quality and cost efficiency
+
+!!! note "Next Step"
+    Done running the basic finetuning notebook? **Leave the notebook running** and proceed forward with [distillation.](./33-distill-finetuning.md)

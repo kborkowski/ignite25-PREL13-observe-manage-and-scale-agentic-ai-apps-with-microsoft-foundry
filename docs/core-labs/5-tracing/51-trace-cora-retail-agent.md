@@ -14,15 +14,16 @@ Now that Cora is handling customer queries, the team needs production-grade obse
 
 ## 3. Instructions
 
-!!! lab "NOTEBOOK: Tracing Cora Retail Agent"
+!!! lab "NOTEBOOK: Tracing Cora Reatil Agent"
 
-    **📓 Open:** [`labs/5-tracing/51-trace-cora-retail-agent.ipynb`](https://github.com/microsoft/ignite25-PDY123-learn-how-to-observe-manage-and-scale-agentic-ai-apps-using-azure/blob/main/labs/5-tracing/51-trace-cora-retail-agent.ipynb)
+    **📓 Open:** [`labs/6-deployment/60-deployment.ipynb`](https://github.com/microsoft/ignite25-PDY123-learn-how-to-observe-manage-and-scale-agentic-ai-apps-using-azure/blob/main/labs/5-tracing/51-trace-cora-retail-agent.ipynb)
     
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. Close the notebook once done
 
 **What you'll learn in this lab:**
 
@@ -57,5 +58,5 @@ Now that Cora is handling customer queries, the team needs production-grade obse
 ---
 
 !!! note "Next Step"
-    Once you have collected and inspected traces, close the notebook and continue to deployment labs.
+    Once you have collected and inspected traces, **close the notebook** and continue to [deployment labs.](../6-deployment/60-deployment.md)
 

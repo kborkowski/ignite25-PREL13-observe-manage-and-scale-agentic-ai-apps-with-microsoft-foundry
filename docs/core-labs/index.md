@@ -42,4 +42,4 @@ You'll build **Cora**, an AI shopping assistant for Zava, a home improvement ret
 !!! question "Need Assistance?"
     - **In-venue:** Raise your hand for instructor support
     - **Post-event:** Join the [Discord Community](https://aka.ms/model-mondays/discord) to get help or share feedback
-    - **Content Issues:** File issues on the [GitHub repository](https://github.com/microsoft/ignite25-PDY123-learn-how-to-observe-manage-and-scale-agentic-ai-apps-using-azure)
+    - **Content Issues:** File issues on the [GitHub repository](https://github.com/microsoft/ignite25-PREL13-learn-how-to-observe-manage-and-scale-agentic-ai-apps-using-azure)

@@ -21,8 +21,10 @@ Zava's leadership wants to ensure Cora provides the best customer experience pos
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. **Troubleshooting:** If cells fail to execute or hang for more than 2-3 minutes, reload your browser tab/codespace and reopen the notebook to try again
+    1. Close the notebook once done
 
 **What you'll learn in this lab:**
 
@@ -58,4 +60,4 @@ Zava's leadership wants to ensure Cora provides the best customer experience pos
 ---
 
 !!! note "Next Step"
-    When evaluations are complete, close the notebook and proceed to customization labs.
+    When evaluations are complete, **close the notebook** and proceed to [building a custom grader.](../3-customization/32-custom-grader.md)

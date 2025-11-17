@@ -20,8 +20,9 @@ Introduction to Azure AI's evaluation capabilities. Learn the basics of running 
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. Close the notebook once done
 
 **What you'll learn in this lab:**
 
@@ -57,4 +58,4 @@ Introduction to Azure AI's evaluation capabilities. Learn the basics of running 
 ---
 
 !!! note "Next Step"
-    After reviewing evaluation metrics, close the notebook and move to the next evaluation or tracing lab.
+    After reviewing evaluation metrics, **close the notebook** and move to the next [evaluation lab.](./44-evaluate-agents.md)

@@ -17,8 +17,11 @@ Cora is Zava Hardware Store's customer service chatbot that helps DIY enthusiast
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. **Troubleshooting:** If cells fail to execute or hang for more than 2-3 minutes, reload your browser tab/codespace and reopen the notebook to try again
+    1. 1. Close the notebook once done
+
 
 **What you'll learn in this lab:**
 
@@ -54,5 +57,5 @@ Cora is Zava Hardware Store's customer service chatbot that helps DIY enthusiast
 ---
 
 !!! note "Next Step"
-    Finished generating datasets? Close the notebook and continue to model evaluation or customization as directed.
+    Finished generating datasets? **Close the notebook** and continue to [model evaluation.](../2-models/22-evaluate-models.md)
 

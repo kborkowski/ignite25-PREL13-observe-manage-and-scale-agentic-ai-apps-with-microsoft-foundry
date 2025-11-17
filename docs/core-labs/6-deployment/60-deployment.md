@@ -21,8 +21,9 @@ After development and testing, Zava is ready to deploy Cora to production. This 
     **🚀 Run the notebook:**
     
     1. Select the Python kernel when prompted
-    2. Clear all outputs (optional, for a clean start)
-    3. Run all cells sequentially
+    1. Clear all outputs (optional, for a clean start)
+    1. Run all cells sequentially
+    1. Close the notebook once done
 
 **What you'll learn in this lab:**
 
@@ -61,5 +62,5 @@ After development and testing, Zava is ready to deploy Cora to production. This 
 ---
 
 !!! note "Next Step"
-    Deployment steps complete? Close the notebook and proceed to teardown or further optimization labs.
+    Deployment steps complete? Congratulations, you have reached the end of the lab! Continue to the [teardown.](../7-teardown/index.md)
 

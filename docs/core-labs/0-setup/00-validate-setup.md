@@ -14,7 +14,7 @@
 
 ---
 
-## 1. Environment & Azure Authentication
+## Step 1. Environment & Azure Authentication
 
 Use the tab for your learning context. Both tracks converge on validating environment variables via a notebook before starting subsequent labs.
 
@@ -37,7 +37,7 @@ Use the tab for your learning context. Both tracks converge on validating enviro
         ```title="" linenums="0"
         python ./scripts/2-add-product-index.py
         ```
-    1. Proceed to Section 2 to validate the setup with the notebook.
+    1. Proceed to Step 2 to validate the setup with the notebook.
 
     !!! success "Skillable environment authenticated & configured. Continue to validation."
 
@@ -75,16 +75,16 @@ Use the tab for your learning context. Both tracks converge on validating enviro
 
 ---
 
-## 3. Validate The Environment
+## Step 2. Validate The Environment
 
 Use the provided notebook to ensure all required variables and service connections are available.
 
 1. In VS Code Explorer, open the folder: `labs/0-setup/`
-2. Open the notebook: `labs/0-setup/00-validate-setup.ipynb`
-3. Select the default Python kernel ("Select Kernel" if prompted)
-4. (Optional) Clear All Outputs
-5. Run all cells (Run All)
-6. Scroll to the final cell for summary
+1. Open the notebook: `labs/0-setup/00-validate-setup.ipynb`
+1. Select the default Python kernel ("Select Kernel" if prompted) - **Select Python 3.12.11**
+1. Run all cells (Run All)
+1. Scroll to the final cell for summary
+1. Close the notebook once done
 
 Expected results:
 - Missing variables = 0
@@ -93,27 +93,17 @@ Expected results:
 
 
 ```bash
-======================================================================
-📊 VALIDATION SUMMARY - Agentic AI Workshop Environment
-======================================================================
+============================================================
+📊 VALIDATION SUMMARY
+============================================================
 ✅ Valid variables: 46
 ❌ Missing variables: 0
-⚠️  Warnings: 0
 
 🎉 All environment variables are properly configured!
-    You're ready to proceed with all lab exercises.
-
-📚 Available Labs:
-    - Lab 1: Agents (labs/1-agents/)
-    - Lab 2: Models (labs/2-models/)
-    - Lab 3: Customization (labs/3-customization/)
-    - Lab 4: Evaluation (labs/4-evaluation/)
-    - Lab 5: Tracing (labs/5-tracing/)
-    - Lab 6: Deployment (labs/6-deployment/)
-    - Lab 7: Teardown (labs/7-teardown/)
+   You're ready to proceed with the lab exercises.
 ```
 
 ---
 
 !!! note "Next Step"
-    Validation successful? Close this notebook to free resources and continue to Lab 1: Agents.
+    Validation successful? **Close this notebook** to free resources and continue to [Lab 1: Agents.](../1-agents/11-agent-service.md)

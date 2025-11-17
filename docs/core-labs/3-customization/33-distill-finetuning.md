@@ -53,3 +53,6 @@ Explore model distillation by using a larger, more capable "teacher" model's out
 - Distillation transfers specialized knowledge from large teacher models to small student models, achieving cost/performance gains
 - Stored completions from teacher models provide high-quality training data that embeds the teacher's capabilities
 - Custom graders validate that distilled models maintain quality standards while delivering dramatic improvements in cost and speed
+
+!!! note "Next Step"
+    Done running the distillation notebook? **Leave the notebook running** and proceed forward with [evaluation.](../4-evaluation/41-first-evaluation.md)
